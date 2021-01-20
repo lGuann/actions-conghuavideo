@@ -17,8 +17,8 @@ jobs:
     env:
       RONGHUA_VIDEO: ${{ secrets.RONGHUA_VIDEO }}
       RONGHUA_VIDEO2: ${{ secrets.RONGHUA_VIDEO2 }}
-			RONGHUA_VIDEO3: ${{ secrets.RONGHUA_VIDEO3 }}
-			RONGHUA_VIDEO4: ${{ secrets.RONGHUA_VIDEO4 }}
+      RONGHUA_VIDEO3: ${{ secrets.RONGHUA_VIDEO3 }}
+      RONGHUA_VIDEO4: ${{ secrets.RONGHUA_VIDEO4 }}
     runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
